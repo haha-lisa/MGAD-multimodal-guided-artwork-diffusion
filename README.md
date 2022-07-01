@@ -8,7 +8,7 @@
 ## Environment
 * Pytorch 1.9.0, Python 3.9
 * NVIDIA A40
-* 512 defaults: 43 GB
+* 512 defaults: 38 GB
 
 ```
 conda create -n mgad python=3.9
