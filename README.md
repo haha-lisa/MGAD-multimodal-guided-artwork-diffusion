@@ -19,7 +19,6 @@ pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f h
 ## Install dependencies
 ```
 git clone https://github.com/openai/CLIP
-git clone https://github.com/openai/guided-diffusion
 pip install -e ./CLIP
 pip install -e ./guided-diffusion
 pip install lpips
