@@ -4,15 +4,6 @@
 
 ![MAIN3_e2-min](https://github.com/haha-lisa/MGAD-multimodal-guided-artwork-diffusion/blob/main/teaser.jpg)
 
-### Cite
-```
-@inproceedings{Huang:2022:MGAD,
-author = {Nisha Huang, Fan Tang, Weiming Dong, Changsheng Xu},
-title = {Draw Your Art Dream: Diverse Digital Art Synthesis with Multimodal Guided Diffusion},
-year = {2022},
-booktitle = {The 30th ACM International Conference on Multimedia (ACM MM'22)},
-}
-```
 
 ## Environment
 Pytorch 1.9.0, Python 3.9
@@ -44,3 +35,12 @@ curl -OL --http1.1 'https://the-eye.eu/public/AI/models/512x512_diffusion_uncond
 python mgad.py -p "A stunning natural landscape painting is created by an artist Paul Cezanne in post-impressionism style." --image_prompts "./image_prompts/1.jpg" -t 2000 -ds 2000 -tvs 300 -o "./results/PC-landscape/PC-landscape"
 ```
 
+## Cite
+```
+@inproceedings{Huang:2022:MGAD,
+author = {Nisha Huang, Fan Tang, Weiming Dong, Changsheng Xu},
+title = {Draw Your Art Dream: Diverse Digital Art Synthesis with Multimodal Guided Diffusion},
+year = {2022},
+booktitle = {The 30th ACM International Conference on Multimedia (ACM MM'22)},
+}
+```
