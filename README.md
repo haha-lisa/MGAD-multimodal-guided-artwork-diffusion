@@ -30,7 +30,7 @@ pip install lpips
 curl -OL --http1.1 'https://the-eye.eu/public/AI/models/512x512_diffusion_unconditional_ImageNet/512x512_diffusion_uncond_finetune_008100.pt'
 ```
 ## Download the model checkpoint
-A 481M parameter unconditional model trained by Katherine Crowson(https://twitter.com/RiversHaveWings)
+An unconditional model trained by Katherine Crowson(https://twitter.com/RiversHaveWings)
 on a 33 million image original resolution subset of Yahoo Flickr Creative Commons 100 Million.
 ```
 curl -OL --http1.1 'https://the-eye.eu/public/AI/models/v-diffusion/yfcc_1.pth'
