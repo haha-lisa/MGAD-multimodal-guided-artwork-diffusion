@@ -14,7 +14,7 @@ booktitle = {The 30th ACM International Conference on Multimedia (ACM MM'22)},
 }
 ```
 
-### Environment
+## Environment
 Pytorch 1.9.0, Python 3.9
 NVIDIA A40
 512 defaults: 43 GB
@@ -26,7 +26,7 @@ pip3 install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f h
 
 ```
 
-# Install dependencies
+## Install dependencies
 ```
 git clone https://github.com/openai/CLIP
 git clone https://github.com/crowsonkb/guided-diffusion
@@ -35,12 +35,12 @@ pip install -e ./guided-diffusion
 pip install lpips
 ```
 
-# Download the diffusion models
+## Download the diffusion models
 ```
 curl -OL --http1.1 'https://the-eye.eu/public/AI/models/512x512_diffusion_unconditional_ImageNet/512x512_diffusion_uncond_finetune_008100.pt'
 ```
 
-### Run
+## Run
 ```
 python mgad.py -p "A stunning natural landscape painting is created by an artist Paul Cezanne in post-impressionism style." --image_prompts "./image_prompts/1.jpg" -t 2000 -ds 2000 -tvs 300 -o "./results/PC-landscape/PC-landscape"
 ```
