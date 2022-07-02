@@ -59,3 +59,6 @@ booktitle = {The 30th ACM International Conference on Multimedia (ACM MM'22)},
 ## Acknowledgments
 *This code borrows heavily from [v-diffusion-pytorch](https://github.com/crowsonkb/v-diffusion-pytorch) and [CLIP-Guided-Diffusion](https://github.com/nerdyrodent/CLIP-Guided-Diffusion).
 We also thank [CLIP](https://github.com/openai/CLIP) and [guided-diffusion](https://github.com/openai/guided-diffusion).*
+
+## License
+The codes and the pretrained model in this repository are under the MIT license as specified by the LICENSE file.<br>
