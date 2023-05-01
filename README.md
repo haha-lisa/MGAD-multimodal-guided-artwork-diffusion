@@ -48,11 +48,12 @@ python mgad.py -p "A stunning natural landscape painting is created by an artist
 
 ## Cite
 ```
-@inproceedings{Huang2022MGAD,
-author = {Nisha, Huang and Fan, Tang and Weiming, Dong and Changsheng, Xu},
-title = {Draw Your Art Dream: Diverse Digital Art Synthesis with Multimodal Guided Diffusion},
-booktitle = {The 30th ACM International Conference on Multimedia (ACM MM'22)},
-year = {2022}
+@inproceedings{huang2022draw,
+  title={Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion},
+  author={Huang, Nisha and Tang, Fan and Dong, Weiming and Xu, Changsheng},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={1085--1094},
+  year={2022}
 }
 ```
 
