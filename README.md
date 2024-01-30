@@ -6,7 +6,7 @@
 
 **Draw Your Art Dream: Diverse Digital Art Synthesis with Multimodal Guided Diffusion**<br>
 **ACM Multimedia 2022**<br>
-[Nisha Huang], [Fan Tang], [Weiming Dong], [Changsheng Xu]
+
 
 ## Abstract
 > Digital art creation is getting more attention in the multimedia community for providing effective engagement of the public with art. Current digital art generation methods usually use single modality inputs as guidance, limiting the expressiveness of the model and the diversity of generated results. To solve this problem, we propose the multimodal guided artwork diffusion (MGAD) model,  a diffusion-based digital artwork generation method that utilizes multimodal prompts as guidance to control the classifier-free diffusion model. Additionally, the contrastive language-image pretraining (CLIP) model is used to unify text and image modalities. However, the semantic content of multimodal prompts may conflict with each other, which leads to a collapse in generating progress. Extensive experimental results on the quality and quantity of the generated digital art paintings confirm the effectiveness of the combination of the diffusion model and multimodal guidance.
@@ -46,16 +46,7 @@ curl -OL --http1.1 'https://the-eye.eu/public/AI/models/v-diffusion/yfcc_1.pth'
 python mgad.py -p "A stunning natural landscape painting is created by an artist Paul Cezanne in post-impressionism style." --image_prompts "./image_prompts/1.jpg" -t 2000 -ds 2000 -tvs 300 -o "./results/PC-landscape/PC-landscape"
 ```
 
-## Cite
-```
-@inproceedings{huang2022draw,
-  title={Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion},
-  author={Huang, Nisha and Tang, Fan and Dong, Weiming and Xu, Changsheng},
-  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
-  pages={1085--1094},
-  year={2022}
-}
-```
+
 
 ## Acknowledgments
 *This code borrows heavily from [v-diffusion-pytorch](https://github.com/crowsonkb/v-diffusion-pytorch) and [CLIP-Guided-Diffusion](https://github.com/nerdyrodent/CLIP-Guided-Diffusion).
