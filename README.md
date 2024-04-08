@@ -53,4 +53,16 @@ python mgad.py -p "A stunning natural landscape painting is created by an artist
 We also thank [CLIP](https://github.com/openai/CLIP) and [guided-diffusion](https://github.com/openai/guided-diffusion).*
 
 ## License
-The codes and the pretrained model in this repository are under the MIT license as specified by the LICENSE file.<br>
+The codes and the pretrained model in this repository are under the MIT license as specified by the LICENSE file.<be>
+
+## Citation
+If you find our work is useful in your research, please consider citing:
+```
+@inproceedings{huang2022draw,
+  title={Draw your art dream: Diverse digital art synthesis with multimodal guided diffusion},
+  author={Huang, Nisha and Tang, Fan and Dong, Weiming and Xu, Changsheng},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={1085--1094},
+  year={2022}
+}
+```
